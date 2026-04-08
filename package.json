@@ -1,0 +1,21 @@
+{
+  "name": "claude-usage",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Claude Code usage dashboard vibe-rewritten in TypeScript, no dependencies",
+  "bin": "src/cli.ts",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "repository": "https://github.com/wmertens/claude-usage",
+  "scripts": {
+    "scan": "node src/cli.ts scan",
+    "today": "node src/cli.ts today",
+    "stats": "node src/cli.ts stats",
+    "dashboard": "node src/cli.ts dashboard"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}
